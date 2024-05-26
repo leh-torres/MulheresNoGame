@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="/cadastro_user_comum.html" class="nav-link px-2 text-white">Usuário</a></li>
+              <li><a href="/cadastro_user_emp.html" class="nav-link px-2 text-white">Empresa</a></li>
+            </ul>
+    
+    
+            <div class="text-end">
+              <a href="/home.html" type="button" class="btn btn-warning">Voltar</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+    <!-- Section: Design Block -->
+<section class="">
+    <!-- Jumbotron -->
+    <div class="px-4 py-5 px-md-5 text-center text-lg-start" style="background-color: hsl(0, 0%, 96%)">
+      <div class="container">
+        <div class="row gx-lg-5 align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <h1 class="my-5 display-3 fw-bold ls-tight">
+               Realize seu cadastro<br />
+              <span class="text-primary">Junte-se a nós!</span>
+            </h1>
+            <!--<p style="color: hsl(217, 10%, 50.8%)">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Eveniet, itaque accusantium odio, soluta, corrupti aliquam
+              quibusdam tempora at cupiditate quis eum maiores libero
+              veritatis? Dicta facilis sint aliquid ipsum atque?
+            </p>-->
+          </div>
+  
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="card">
+              <div class="card-body py-5 px-md-5">
+                <form>
+                  <!-- 2 column grid layout with text inputs for the first and last names -->
+                  <div data-mdb-input-init class="form-outline mb-2">
+                    <h5 class="text-uppercase">Responda as perguntas à baixo para concluir seu cadastro</h5>
+                    <p  for="exampleFormControlSelect1">1. Quais desses gêneros de jogos são do seu interesse?</p>
+                    
+                    <div class="row mt-1">
+                        <div class="col-md-6">
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                FPS
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                FPA
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                PvP
+                                </label>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                Battle Royale
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                MOBA
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                RPG
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                  </div>
+
+                  <div data-mdb-input-init class="form-outline mb-2">
+                    
+                    <label class="form-label" >2. Com qual frequência você costuma jogar?</label>
+                  </br>
+                    <div class="form-check form-check-inline mb-1">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">1 à 2 dias</label>
+                      </div>
+                      <div class="form-check form-check-inline mb-1">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">3 à 4 dias</label>
+                      </div>
+                      <div class="form-check form-check-inline mb-1">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Todos os dias</label>
+                      </div>
+                      <div class="form-check form-check-inline mb-1">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Apenas quando estou livre</label>
+                      </div>
+                      <div class="form-check form-check-inline mb-1">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Somente no fim de semana</label>
+                      </div>
+
+                  </div>
+
+                  <div data-mdb-input-init class="form-outline mb-2">
+                    
+                    <label class="form-label" >3. Qual a sua plataforma preferida?</label>
+                  </br>
+                    <div class="form-check form-check-inline mb-1">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Mobile</label>
+                      </div>
+                      <div class="form-check form-check-inline mb-1">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Computador</label>
+                      </div>
+                      <div class="form-check form-check-inline mb-1">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Console</label>
+                      </div>
+
+                  </div>
+                  
+                  <!-- Submit button -->
+                  <a href="/forum.html" type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mt-3 mb-4">
+                    Concluir cadastro
+                  </a>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+  </section>
+  <!-- Section: Design Block -->
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+</html>
