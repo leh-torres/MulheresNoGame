@@ -34,6 +34,7 @@ height: 100%;
 }
 .bg-secondary, .btn-secondary{
     background-color: var(--secondary) !important;
+    border-color: hsl(#ffffff, 0, 0.5);
 }
 .bg-tertiary, .btn-tertiary{
     background-color: var(--tertiary) !important;
