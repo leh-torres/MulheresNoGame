@@ -1,0 +1,52 @@
+:root{
+    --primary: #FF337D;
+    --secondary: #2E3237;
+    /* tertiary não é um padrão do Bootstrap, mas pode ser adicionado! */
+    --tertiary: #67CCDC;
+    --success: #FAA18E;
+    --info: #FDEBE1;
+    --warning: #FF9933;
+    --danger: #E3371E;
+    --background: #1B1F24;
+}
+/* sobrescrevendo classes padrão do Bootstrap */
+/* a marcação !important dá um peso maior a regra, sobrescrevendo regras prévias */
+.bg-primary, .btn-primary{
+    background-color: var(--primary) !important;
+    border-color: var(--primary);
+}
+.bg-secondary, .btn-secondary{
+    background-color: var(--secondary) !important;
+    border-color: hsl(#ffffff, 0, 0.5);
+}
+.bg-tertiary, .btn-tertiary{
+    background-color: var(--tertiary) !important;
+}
+.bg-success, .btn-success{
+    background-color: var(--success) !important;
+}
+.bg-info, .btn-info{
+    background-color: var(--info) !important;
+}
+.bg-warning, .btn-warning{
+    background-color: var(--warning) !important;
+    border-color: var(--warning) !important;
+}
+.bg-danger .btn-danger{
+    background-color: var(--danger) !important;
+}
+.nav-link {
+    color: var(--primary) !important ;
+}
+.nav-link:hover{
+    color: var(--warning) !important ; 
+}
+
+.btn-outline-primary{
+    color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+body, header{
+    background-color: var(--background);
+}
